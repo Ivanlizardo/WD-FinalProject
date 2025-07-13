@@ -11,9 +11,10 @@
   --lightMode-text: #ffffff;
   --lightMode-header: #000000;
   --lightMode-primary: #ff8800;
-  --lightMode-primary-hover: #ffb366;
+  --lightMode-primary-hover: #df7700;
   --lightMode-upperGradient: #bfd2d7;
   --lightMode-lowerGradient: #ececec;
+  --lightMode-gray: #eeeeee;
 }
 
 img {
@@ -58,6 +59,12 @@ video {
         img {
           height: 3rem;
           width: 3rem;
+          cursor: pointer;
+          transition: all 0.2s ease-in-out;
+          &:hover {
+            filter: contrast(0.1);
+            transform: translate(0, -5%);
+          }
         }
       }
       .Side {
