@@ -8,17 +8,42 @@
 }
 
 :root {
-  --lightMode-text: #ffffff;
-  --lightMode-header: #000000;
+  --lightMode-text: #000000;
+  --lightMode-header: #ffffff;
   --lightMode-primary: #ff8800;
   --lightMode-primary-hover: #df7700;
-  --lightMode-upperGradient: #bfd2d7;
-  --lightMode-lowerGradient: #ececec;
-  --lightMode-gray: #eeeeee;
+  --lightMode-upperGradient: #1d1d1d;
+  --lightMode-lowerGradient: #1d1d1d3d;
+  --lightMode-gray: #252525;
+}
+
+.switchBtn {
+  position: absolute;
+  top: 1%;
+  left: 0.5%;
+  text-decoration: none;
+  color: var(--lightMode-header);
+  padding: 0.7rem;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background-color: var(--lightMode-primary);
+    border: var(--lightMode-text);
+  }
+}
+
+.container {
+  position: relative;
 }
 
 html {
   overflow-x: hidden;
+  color: white;
+  background-color: var(--lightMode-text);
 }
 
 span.orange {
@@ -30,6 +55,29 @@ span.bold {
 
 .active {
   color: var(--lightMode-primary-hover);
+}
+
+.switchBtn {
+  position: absolute;
+  top: 1%;
+  left: 0.5%;
+  text-decoration: none;
+  color: var(--lightMode-header);
+  padding: 0.7rem;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background-color: var(--lightMode-primary);
+    border: var(--lightMode-text);
+  }
+}
+
+.container {
+  position: relative;
 }
 
 section.hero {
@@ -143,7 +191,7 @@ section.hero {
         .headText {
           line-height: 0.9;
           h2 {
-            color: var(--lightMode-text);
+            color: whitesmoke;
             font-size: 3rem;
             font-family: "poppins", sans-serif;
           }
@@ -409,7 +457,7 @@ section.education {
       background-color: var(--lightMode-upperGradient);
       content: "Novaliches Highschool";
       left: -13%;
-      color: black;
+      color: rgb(255, 255, 255);
     }
     #first::before {
       border-color: var(--lightMode-upperGradient) transparent transparent
