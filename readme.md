@@ -11,7 +11,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  This project demonstrates my skills in creating Hero sections. It features entrance animations to improve the overall aesthetic. Please note that the hero sections are not yet responsive, and the images shown on card hover are in fixed positions. I'm still practicing and improving my responsive design skills.
+  This final project showcases my personal portfolio. It includes interactive hover effects, entrance animations, and a responsive dark mode feature. The goal of this project is to demonstrate my front-end development skills, UI/UX design sense, and ability to create a modern, user-friendly web experience.
 </div>
 
 <br />
@@ -50,7 +50,11 @@
 
 ## Overview
 
-This project enhances my design skills using HTML and CSS. It focuses on creating clean layouts and smooth animations. I also used simple JavaScript to add basic functionality. Overall, it helped me practice combining design and interactivity.
+This project is a personal portfolio website designed to showcase my skills in front-end development and web design. It features cool entrance animations and interactive hover effects to create an engaging and appealing user experience.
+
+One of the standout features is the dark mode, which works without JavaScript. Instead of toggling modes dynamically, I created separate HTML pages with different root color variables defined in CSS, allowing for a clean and lightweight approach to theming.
+
+The entire site focuses on visual polish, performance, and usability, making it not just a showcase of my work, but also a reflection of my aesthetic and technical capabilities as a developer.
 
 ### Key Components
 
@@ -60,7 +64,8 @@ This project enhances my design skills using HTML and CSS. It focuses on creatin
 - blur effects
 - Javascript
 - Flip card animation
-- Home Icon to go back main page
+- Dark Mode
+- Infinite auto scroll animation
 
 ### Technology
 
